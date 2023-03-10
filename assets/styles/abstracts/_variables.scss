@@ -1,0 +1,78 @@
+
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+
+$pink_gradient: linear-gradient(300deg,
+      rgba(254, 189, 171, 0.74) 20%,
+      rgba(243, 169, 248, 0.66) 70%,
+      rgba(224, 216, 240, 1),
+      rgba(234, 247, 254, 1),
+      rgba(234, 247, 254, 1));
+
+$orange_gradient:
+    linear-gradient(315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #FEBDAB 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%),
+    linear-gradient(315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #E0D8F0 80.49%, #EAF7FE 127.9%,
+      #EAF7FE 149.54%),
+    linear-gradient(315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #E0D8F0 80.49%,
+      #EAF7FE 127.9%,
+      #EAF7FE 149.54%);
+
+$orange_color:
+    linear-gradient(113.96deg,
+      #F9804B 1.49%,
+      #FE9013 101.44%);
+
+$black_color:
+    linear-gradient(#111115,
+      #111114);
+
+$white-color:
+    linear-gradient(#ffffff,
+      #fffffe);
+
+$green: #4B9200;
+$red: #D31414;
+$yellow: #FFEE2E;
+$black_blue: #333B41;
+$gray: #767474;
+$gray_smokey: #ABABAB;
+$light_gray: #F1F3F2;
+$frosted_glass_white:rgba(253, 253, 255, 0.52);
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+
+
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'https://cdn.example.com/assets/';
+$base-url: '/assets/' !default;

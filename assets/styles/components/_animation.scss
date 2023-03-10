@@ -1,0 +1,154 @@
+@keyframes toLeft {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(calc(-300% - 90px), 0px);
+  }
+}
+@keyframes toLeft979 {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(calc(-200% - 58px), 0px);
+  }
+}
+@keyframes toLeft1399 {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(calc(-300% - 87px), 0px);
+  }
+}
+
+
+@keyframes toRight {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(calc(300% + 90px), 0px);
+  }
+}
+@keyframes toRight1399 {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+      transform: translate(calc(300% + 87px), 0px);
+    }
+}
+@keyframes toRight979 {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(calc(200% + 58px), 0px);
+  }
+}
+
+@keyframes fromLeft {
+  from {
+    transform: translate(calc(-300% - 90px), 0px);
+    @media (max-width: 1399px) {
+    transform: translate(calc(-300% - 87px), 0px);
+    }
+    @media (max-width: 979px) {
+      transform: translate(calc(-200% - 58px), 0px);
+    }
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes fromLeft1399 {
+  from {
+    transform: translate(calc(-300% - 87px), 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes fromLeft979 {
+  from {
+      transform: translate(calc(-200% - 58px), 0px);
+    }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+@keyframes fromRight {
+  from {
+    transform: translate(calc(300% + 90px), 0px);
+    @media (max-width: 1399px) {
+    transform: translate(calc(300% + 87px), 0px);
+    }
+    @media (max-width: 979px) {
+      transform: translate(calc(200% + 58px), 0px);
+    }
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes fromRight1399 {
+  from {
+      transform: translate(calc(300% + 87px), 0px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+@keyframes fromRight979 {
+  from {
+      transform: translate(calc(200% + 58px), 0px);
+    }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+.toLeft {
+  animation-name: toLeft;
+  @media (max-width: 1399px) {
+  animation-name: toLeft1399;
+  }
+  @media (max-width: 979px) {
+  animation-name: toLeft979;
+  }
+}
+
+.toRight {
+  animation-name: toRight;
+  @media (max-width: 1399px) {
+  animation-name: toRight1399;
+  }
+  @media (max-width: 979px) {
+  animation-name: toRight979;
+  }
+}
+
+.fromLeft {
+  animation-name: fromLeft;
+  @media (max-width: 1399px) {
+  animation-name: fromLeft1399;
+  }
+  @media (max-width: 979px) {
+  animation-name: fromLeft979;
+  }
+}
+
+.fromRight {
+  animation-name: fromRight;
+  @media (max-width: 1399px) {
+  animation-name: fromRight1399;
+  }
+  @media (max-width: 979px) {
+  animation-name: fromRight979;
+  }
+}

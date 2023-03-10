@@ -1,0 +1,149 @@
+
+.lovelyZooOnline.chooseYourFavoriteButton {
+  background: #FE9013;
+}
+
+.bgButtonDiv {
+  background-image: $orange_color;
+  width: 298px;
+  height: 54px;
+  border-radius: 25px;
+}
+
+.lovelyZooOnline {
+  background: rgba(228, 115, 9, 0);
+  cursor: pointer;
+  border-radius: 25px;
+  width: 298px;
+  height: 54px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.lovelyZooOnline:hover,
+.petsArrowButton:hover,
+.leaveFeedback:hover {
+  background: #e47209;
+}
+
+.lovelyZooOnline:focus,
+.petsArrowButton:focus,
+.leaveFeedback:focus {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #4B9200;
+}
+
+.lovelyZooOnline:disabled,
+.petsArrowButton:disabled,
+.leaveFeedback:disabled {
+  background: #767474;
+}
+
+.petsArrowBg {
+  width: 62px;
+  height: 62px;
+  background: $orange_color;
+  border-radius: 100%;
+}
+
+.petsArrowButton {
+  width: 62px;
+  height: 62px;
+  border-radius: 100%;
+  background: rgba(228, 115, 9, 0);
+}
+
+.squareButtonWrapper {
+  width: 298px;
+  height: 54px;
+  border-radius: 5px;
+  background: $orange_color;
+  letter-spacing: 0.5px;
+}
+
+.leaveFeedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(228, 115, 9, 0);
+  cursor: pointer;
+  border-radius: 5px;
+  width: 298px;
+  height: 54px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+// range
+
+.testimonialsBarWrapper {
+  margin: 21px auto 0px;
+  width: 602px;
+  height: 10px;
+  border-radius: 5px;
+  background: $pink_gradient;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  
+  @media (max-width:1399px) {
+    width: 392px;
+    margin: 20px auto 0px;
+  }
+
+  @media (max-width:979px) {
+    display: none;
+  }
+}
+
+.testimonialsBar {
+  width: 599px;
+  height: 7px;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  &::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: calc(100% / 8);
+  height: 7px;
+  border-radius: 5px;
+  background: #FE9013;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  @media (max-width: 1399px) {
+    width: calc(100% / 9);
+  }
+  }
+
+  @media (max-width:1399px) {
+    width: 389px;
+  }
+}
+
+
